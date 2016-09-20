@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAREr+G81UN0Wows4bymZRXAAAAAACAAAAAAAQZgAAAAEAACAAAAAgknU54ygPi1b/yMb2YxHQE0ZdQui1wXrSstNyNpmRjwAAAAAOgAAAAAIAACAAAADFG+YEurTotxhwBZkj2K2vYWAYea6J3HXMqa0SMj7nKSAAAADDPIsT6f6KutVRIWAAjKc7q5sviWDTu/+Ys+YidvFJrUAAAAD/O7WeQRLXfJRDdD2ztNTPzQBW0cjZrgP/tpvgyPobnVNt1sXq4RxSv92fzGF5a1X8PFIgcD5nYwddCD6l1si7</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.myASP.NET/ruterbysurbhi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 03:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/TransportTest.dll">
+      <publishTime>09/12/2016 02:46:16</publishTime>
+    </File>
+    <File Include="HoldeplassMap.html">
+      <publishTime>09/12/2016 12:16:53</publishTime>
+    </File>
+    <File Include="scripts/dataService.js">
+      <publishTime>09/12/2016 02:45:59</publishTime>
+    </File>
+    <File Include="scripts/lib/angular-leaflet-directive.min.js">
+      <publishTime>09/11/2016 11:50:58</publishTime>
+    </File>
+    <File Include="scripts/lib/angular.min.js">
+      <publishTime>09/08/2016 22:58:45</publishTime>
+    </File>
+    <File Include="scripts/lib/coordinatesConverterService.js">
+      <publishTime>09/10/2016 23:07:35</publishTime>
+    </File>
+    <File Include="scripts/lib/Google.js">
+      <publishTime>09/11/2016 12:53:17</publishTime>
+    </File>
+    <File Include="scripts/lib/jquery-1.9.1.min.js">
+      <publishTime>07/29/2016 16:20:28</publishTime>
+    </File>
+    <File Include="scripts/lib/leaflet-google.js">
+      <publishTime>09/11/2016 12:20:13</publishTime>
+    </File>
+    <File Include="scripts/lib/leaflet.js">
+      <publishTime>09/11/2016 11:50:37</publishTime>
+    </File>
+    <File Include="scripts/lib/less.min.js">
+      <publishTime>09/09/2016 00:09:04</publishTime>
+    </File>
+    <File Include="scripts/module.js">
+      <publishTime>09/12/2016 12:16:14</publishTime>
+    </File>
+    <File Include="scripts/ruterService.js">
+      <publishTime>09/12/2016 12:16:45</publishTime>
+    </File>
+    <File Include="scripts/urlService.js">
+      <publishTime>09/12/2016 02:20:40</publishTime>
+    </File>
+    <File Include="styles/bootstrap.css">
+      <publishTime>09/11/2016 09:13:21</publishTime>
+    </File>
+    <File Include="styles/images/Icon-bus.png">
+      <publishTime>09/10/2016 15:30:28</publishTime>
+    </File>
+    <File Include="styles/images/layers-2x.png">
+      <publishTime>09/12/2016 00:57:57</publishTime>
+    </File>
+    <File Include="styles/images/selected-bus.png">
+      <publishTime>09/11/2016 22:58:53</publishTime>
+    </File>
+    <File Include="styles/leaflet.css">
+      <publishTime>09/12/2016 00:51:40</publishTime>
+    </File>
+    <File Include="styles/MarkerCluster.Default.css">
+      <publishTime>09/11/2016 18:27:12</publishTime>
+    </File>
+    <File Include="styles/transportStyles.css">
+      <publishTime>09/12/2016 10:01:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/12/2016 01:50:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

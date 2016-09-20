@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <link href="styles/leaflet.css" rel="stylesheet" />
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/transportStyles.css" rel="stylesheet" />
+    <script src="scripts/lib/angular.min.js"></script>
+    <script src="scripts/module.js"></script>
+    <script src="scripts/lib/angular-leaflet-directive.min.js"></script>
+    <script src="scripts/lib/leaflet.js"></script>
+    <script src="scripts/ruterService.js"></script>
+    <script src="scripts/lib/coordinatesConverterService.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGlECeggIDe88nSzxWZAV_3XY3LgDpMOg"></script>
+
+    <script src="scripts/lib/leaflet-google.js"></script>
+    <script src="scripts/urlService.js"></script>
+    <script src="scripts/dataService.js"></script>
+    <title>Holdeplass Map</title>
+</head>
+<body>
+
+    <div class="wrapper" ng-controller="mainController" data-ng-init="init()">
+        <div id="mapHolder" class="col-md-9">
+            <leaflet layers="layers" markers="markers" center="center" class="angular-leaflet-map" event-broadcast="events"></leaflet>
+        </div>
+
+        <!--Show lines at selected stop-->
+        <div id="stopsInfo" ng-hide="selectedStop==0" class="col-md-3">
+            <div id="stopName">
+                {{selectedStop.name}}
+            </div>
+            <div>
+                <span ng-click="showLineData()" ng-repeat="line in selectedStop.lines track by $index" ng-style="{'background-color': '#'+line.LineColour}">{{line.Name}}</span>
+            </div>
+
+            <div ng-hide="isAvailable(selectedLine.ID)" id="lineInfo">
+                <span ng-style="{'background-color': '#'+selectedLine.LineColour}">{{selectedLine.Name}}</span>
+                <label ng-hide="isAvailable(selectedStop.linesData.linesDest[selectedLine.ID])">Til {{selectedStop.linesData.linesDest[selectedLine.ID]}}</label>
+                <div>
+                    <label ng-repeat="time in selectedStop.linesData.linesTime[selectedLine.ID]">
+                        {{time| date:'HH:mm'}} &nbsp;
+                    </label>
+                </div>
+
+                <div>Rute</div>
+
+                <div ng-repeat="stop in selectedLine.stops">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                    <div id="stop" ng-style="{'color': stop.name==selectedStop.name? 'black':''}">{{stop.name}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
